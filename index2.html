@@ -8,43 +8,46 @@
     <title>Network</title>
 </head>
 <body>
-    <h1 class="nav">Network</h1>
-    <h1 class="feed">Your Feed</h1>
-    <div class="main">
-        <div class="you">
-            <img src="" alt="">
-            <a href=""></a>
-            <h1>Pablo Padilla</h1>
-        </div>
-        <div class="friends">
-            <div class="row">
-                <h1>Neil M</h1>
-                <h1 class="likes" id="neil">0 like(s)</h1>
-                <button onclick="clickCounter()"><h2>Like</h2></button>
+    <div class="container">
+        <h1 class="nav">Network</h1>
+        <h1 class="feed">Your Feed</h1>
+        <div class="main">
+            <div class="you">
+                <img src="img\user-circle.png" alt="user-circle">
+                <a href="#"><h3> Add an avatar</h3> </a>
+                <h1>Pablo Padilla</h1>
             </div>
-            <h3>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Quae, laboriosam.</h3>
-        </div>
-        <div class="friends">
-            <div class="row">
-                <h1>Nichole K</h1>
-                <h1 class="likes" id="nichole">0 like(s)</h1>
-                <button onclick="clickCounter()"><h2>Like</h2></button>
+            <div class="people">
+                <div class="friends">
+                    <div class="row">
+                        <h1>Neil M</h1>
+                        <h1 class="likes" id="neil">0 like(s)</h1>
+                        <button onclick="clickCounter('#neil',0)"><h2>Like</h2></button>
+                    </div>
+                    <h3>Lorem, ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quae, laboriosam.</h3>
+                </div>
+                <div class="friends">
+                    <div class="row">
+                        <h1>Nichole K</h1>
+                        <h1 class="likes" id="nichole">0 like(s)</h1>
+                        <button onclick="clickCounter('#nichole',1)"><h2>Like</h2></button>
+                    </div>
+                    <h3>Lorem, ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quae, laboriosam.</h3>
+                </div>
+                <div class="friends">
+                    <div class="row">
+                        <h1>Jim</h1>
+                        <h1 class="likes" id="jim">0 like(s)</h1>
+                        <button onclick="clickCounter('#jim',2)"><h2>Like</h2></button>
+                    </div>
+                    <h3>Lorem, ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quae, laboriosam.</h3>
+                </div>
             </div>
-            <h3>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Quae, laboriosam.</h3>
-        </div>
-        <div class="friends">
-            <div class="row">
-                <h1>Jim</h1>
-                <h1 class="likes" id="jim">0 like(s)</h1>
-                <button onclick="clickCounter()"><h2>Like</h2></button>
-            </div>
-            <h3>Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Quae, laboriosam.</h3>
         </div>
     </div>
-
     <script src="script2.js"></script>
 </body>
 </html>
